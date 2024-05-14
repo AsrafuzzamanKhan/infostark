@@ -25,7 +25,7 @@ const Hero = () => {
                                 className=" rounded-lg bg-[#c4ef17] flex items-center justify-center ">
                                 <BsArrowDownRightSquareFill className='text-black text-3xl lg:text-5xl ' />
                             </motion.div>
-                            <div className='text-[28px] md:text-7xl font-bold uppercase tracking-tighter '>Digital agency</div>
+                            <div className='text-[34px] md:text-7xl font-bold uppercase tracking-tighter '>Digital agency</div>
                         </div>
                     </div>
                     <div className='w-full lg:w-[50%]'>

@@ -57,11 +57,11 @@ const Header = () => {
         { link: "Blog", path: "blogs" },
     ]
     return (
-        <header className="w-full fixed top-0 left-0 right-0 z-10">
-            <nav className={`py-4 lg:px-14 px-4 ${isSticky ? 'sticky top-0 left-0 border-b-[.5px] border-gray-500 duration-300 bg-black text-white' : ''}`} ref={sidebarRef}>
+        <header className="w-full fixed top-0 left-0 right-0 z-10  ">
+            <nav className={`py-4 lg:px-14 px-4 ${isSticky ? 'sticky top-0 left-0  duration-500 ease-in-out bg-black text-white border-b border-zinc-800' : ''}`} ref={sidebarRef}>
                 <div className='container mx-auto flex items-center justify-between'>
                     <div>
-                        <Link to='/'> <img src={logo} alt="" className='w-28 lg:w-full' /></Link>
+                        <Link to='/'> <img src={logo} alt="logo" className='w-28 lg:w-fit' /></Link>
                     </div>
                     {/* navbar for large device  */}
                     <ul className='md:flex space-x-6 lg:space-x-12 hidden '>

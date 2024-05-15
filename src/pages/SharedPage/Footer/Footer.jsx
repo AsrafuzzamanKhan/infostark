@@ -71,11 +71,11 @@ const Footer = () => {
                                 Welcome to our digital agency We specialize in helping
                                 business most like yours succeed online.
                             </p>
-                            <div className="footer__single-form">
+                            <div >
                                 <form >
-                                    <div className="flex border rounded w-[65%]">
+                                    <div className="flex  rounded">
                                         <input
-                                            className='border-0 bg-transparent p-4'
+                                            className='w-full border bg-transparent p-4'
                                             type="email"
                                             name="subscribe-news"
                                             id="subscribeNews"

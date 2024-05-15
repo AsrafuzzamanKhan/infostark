@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import "./hero.css"
 import { motion } from "framer-motion";
 import arrow from '../../assets/banner/arrow.png'
@@ -6,9 +6,10 @@ import { BsArrowDownRightSquareFill } from "react-icons/bs";
 
 const Hero = () => {
     const mobile = window.innerWidth <= 768 ? true : false;
+
     return (
-        <div className=' w-full bg-zinc-900 text-white pb-12'>
-            <div className="container mx-auto pt-24 lg:pt-40">
+        <div className=' w-full bg-zinc-900 text-white pb-12 pt-24 lg:pt-40  '>
+            <div className="container mx-auto mt-0 md:mt-12">
                 <div className='flex flex-col gap-y-12 px-[2vw] md:px-0'>
                     <div className=''>
                         <div className=''>

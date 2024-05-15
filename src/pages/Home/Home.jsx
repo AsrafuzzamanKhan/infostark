@@ -6,6 +6,7 @@ import HomeOffer from '../../Components/HomeOffer/HomeOffer'
 import HomeTestimonial from '../../Components/HomeTestimonial/HomeTestimonial'
 import HomeBlog from '../../Components/HomeBlog/HomeBlog'
 import HomeSponsor from '../../Components/HomeSponsor/HomeSponsor'
+import Portfolios from '../../Components/Portfolio/Portfolios'
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Hero></Hero>
             <Agency />
             <PortfolioText />
+            <Portfolios></Portfolios>
             {/* <HomeOffer />
             <HomeTestimonial />
             <HomeBlog />

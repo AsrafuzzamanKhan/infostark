@@ -71,8 +71,8 @@ const Header = () => {
 
                     </ul>
 
-                    <div className='hidden md:flex items-center text-white border px-4 py-2 rounded-sm border-gray-500'>
-                        Lets talk
+                    <div className='hidden md:flex items-center text-white border px-4 py-2 rounded-sm border-gray-500 uppercase'>
+                        Let's talk
                     </div>
 
                     {/* menu btn for mobile  */}
@@ -96,7 +96,7 @@ const Header = () => {
                     ))}
 
                     <div className=''>
-                        <p className='text-center my-12 text-white border px-4 py-2 rounded-sm border-gray-500'> Lets talk</p>
+                        <p className='text-center my-12 text-white border px-4 py-2 rounded-sm border-gray-500 uppercase'> Let's talk</p>
                     </div>
 
                 </div>

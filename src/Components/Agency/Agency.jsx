@@ -1,16 +1,27 @@
 import React from 'react'
+import { motion } from 'framer-motion';
 import imageOne from '../../assets/agency/image-one.png'
 import imagetwo from '../../assets/agency/image-two.png'
 import { LuArrowUpRight } from "react-icons/lu";
+
 const Agency = () => {
+    const transition = { type: 'spring', duration: 3 };
     return (
         <section className='bg-zinc-900 text-white'>
             <div className='container mx-auto py-6 lg:py-20'>
                 <div className='flex flex-col lg:flex-row items-center justify-center gap-8'>
                     {/* image  */}
                     <div className='flex-1 relative z-0 mb-[100px] px-[8vw] md:px-0 '>
-                        <img src={imageOne} className='relative w-64 xl:w-96' alt="" />
-                        <img src={imagetwo} className=' absolute w-64 xl:w-96  left-[25%] bottom-[-15%]' alt="" />
+                        <motion.img
+                            initial={{ opacity: 0, x: 100 }}
+                            transition={{ ...transition, duration: 2 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            src={imageOne} className='relative w-64 xl:w-96' alt="" />
+                        <motion.img
+                            initial={{ opacity: 0, x: -100 }}
+                            transition={{ ...transition, duration: 2 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            src={imagetwo} className=' absolute w-64 xl:w-96  left-[25%] bottom-[-15%]' alt="" />
                     </div>
                     {/* text */}
                     <div className='flex-1 flex flex-col gap-y-10 px-[2vw] md:px-0'>

@@ -33,7 +33,7 @@ const HomeOffer = () => {
                                     <MdArrowOutward /></button>
                             </div>
 
-                            <h1 className='text-5xl text-gray-600  font-medium'>UI/UX Experience</h1>
+                            <h1 className='text-5xl text-gray-600  font-medium tracking-tighter'>UI/UX Experience</h1>
                         </div>
                         <div className='flex flex-col gap-2'>
                             <div>
@@ -41,23 +41,23 @@ const HomeOffer = () => {
                                     <MdArrowOutward /></button>
                             </div>
 
-                            <h1 className='text-5xl text-gray-600 font-medium'>Web Development</h1>
+                            <h1 className='text-5xl text-gray-600 font-medium tracking-tighter'>Web Development</h1>
                         </div>
                         <div className='flex flex-col gap-2'>
                             <div>
-                                <button className='flex items-center gap-1 border px-3 py-1 rounded-full'><p>03</p>
+                                <button className='flex items-center gap-1 border px-3 py-1 rounded-full tracking-tighter'><p>03</p>
                                     <MdArrowOutward /></button>
                             </div>
-                            <div className='text-5xl text-gray-600 font-medium'>Digital Marketing</div>
+                            <div className='text-5xl text-gray-600 font-medium tracking-tighter'>Digital Marketing</div>
                         </div>
                         <div className='flex flex-col gap-2'>
                             <div>
-                                <button className='flex items-center gap-1 border px-3 py-1 rounded-full'>
+                                <button className='flex items-center gap-1 border px-3 py-1 rounded-full tracking-tighter'>
                                     <p>04</p>
                                     <MdArrowOutward />
                                 </button>
                             </div>
-                            <div className='text-5xl text-gray-600 font-medium'>Product Design</div>
+                            <div className='text-5xl text-gray-600 font-medium tracking-tighter'>Product Design</div>
                         </div>
                     </div>
                 </div>

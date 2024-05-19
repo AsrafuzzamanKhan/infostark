@@ -1,12 +1,11 @@
 import React from 'react'
-import Hero from '../../Components/Hero/Hero'
-import Agency from '../../Components/Agency/Agency'
-import PortfolioText from '../../Components/PortfolioText/PortfolioText'
-import HomeOffer from '../../Components/HomeOffer/HomeOffer'
-import HomeTestimonial from '../../Components/HomeTestimonial/HomeTestimonial'
-import HomeBlog from '../../Components/HomeBlog/HomeBlog'
-import HomeSponsor from '../../Components/HomeSponsor/HomeSponsor'
-import Portfolios from '../../Components/Portfolio/Portfolios'
+import Hero from '../HomePage/Hero/Hero'
+import Agency from '../HomePage/Agency/Agency'
+import PortfolioText from '../HomePage/PortfolioText/PortfolioText'
+import Portfolios from '../HomePage/Portfolio/Portfolios'
+import HomeOffer from '../HomePage/HomeOffer/HomeOffer'
+import HomeTestimonial from '../HomePage/HomeTestimonial/HomeTestimonial'
+
 
 const Home = () => {
     return (
@@ -16,7 +15,7 @@ const Home = () => {
             <PortfolioText />
             <Portfolios></Portfolios>
             <HomeOffer />
-            <HomeTestimonial />
+            {/* <HomeTestimonial /> */}
             {/* <HomeBlog />
             <HomeSponsor /> */}
         </div>

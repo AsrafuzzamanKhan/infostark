@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "./hero.css"
 import { motion } from "framer-motion";
-import arrow from '../../assets/banner/arrow.png'
 import { BsArrowDownRightSquareFill } from "react-icons/bs";
 
 const Hero = () => {
@@ -33,12 +32,12 @@ const Hero = () => {
                         <p>We are a full-service website design, development and digital marketing company specializing in SEO, content marketing that grows brands.</p>
                     </div>
                     <div className='flex gap-4 w-full md:w-[50%]'>
-                        <div>
-                            <p>12+</p>
+                        <div className='flex flex-col gap-2'>
+                            <p className='text-3xl font-bold'>12+</p>
                             <p>Years Of Experience</p>
                         </div>
-                        <div>
-                            <p>15k</p>
+                        <div className='flex flex-col gap-2'>
+                            <p className='text-3xl font-bold'>15k+</p>
                             <p>Completed Projects</p>
                         </div>
                     </div>
@@ -48,4 +47,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default Hero;

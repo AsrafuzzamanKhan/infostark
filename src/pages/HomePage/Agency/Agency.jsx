@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion';
-import imageOne from '../../assets/agency/image-one.png'
-import imagetwo from '../../assets/agency/image-two.png'
+import imageOne from '../../../assets/agency/image-one.png'
+import imagetwo from '../../../assets/agency/image-two.png'
 import { LuArrowUpRight } from "react-icons/lu";
 
 const Agency = () => {
@@ -16,12 +16,12 @@ const Agency = () => {
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ ...transition, duration: 2 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            src={imageOne} className='relative w-64 xl:w-96' alt="" />
+                            src={imageOne} className='relative rounded-md left-[-15%] md:left-0 w-64 xl:w-96' alt="" />
                         <motion.img
                             initial={{ opacity: 0, x: -100 }}
                             transition={{ ...transition, duration: 2 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            src={imagetwo} className=' absolute w-64 xl:w-96  left-[25%] bottom-[-15%]' alt="" />
+                            src={imagetwo} className=' absolute rounded-md  w-64 xl:w-96 left-[15%] md:left-[25%] bottom-[-15%]' alt="" />
                     </div>
                     {/* text */}
                     <div className='flex-1 flex flex-col gap-y-10 px-[2vw] md:px-0'>

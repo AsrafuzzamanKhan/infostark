@@ -19,7 +19,7 @@ const Footer = () => {
             <div className='container mx-auto py-12'>
                 <div className='flex flex-col md:flex-row px-[2vw] md:px-0 gap-8'>
                     <div className='flex-1 flex flex-col gap-y-5'>
-                        <div><img src={logo} alt="" /></div>
+                        <div><img src={logo} alt="" className='w-28 lg:w-fit' /></div>
                         <div className="flex flex-col gap-y-2">
                             <div className='flex gap-2 items-center'>
                                 <LuMapPin />
@@ -92,7 +92,7 @@ const Footer = () => {
                     </div>
                 </div>
                 {/* copy write  */}
-                <div className="flex items-center justify-between mt-10 px-[2vw] md:px-0">
+                <div className="flex flex-col-reverse lg:flex-row gap-4 items-center justify-between mt-10 px-[2vw] md:px-0">
                     <div>
                         <p>
                             Copyright &copy;

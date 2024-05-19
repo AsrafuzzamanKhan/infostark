@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion';
-import image1 from '../../assets/testimonial/one.png'
-import image2 from '../../assets/testimonial/two.png'
-import image3 from '../../assets/testimonial/three.png'
+import image1 from '../../../assets/testimonial/one.png'
+import image2 from '../../../assets/testimonial/two.png'
+import image3 from '../../../assets/testimonial/three.png'
 import { IoMdArrowRoundBack, IoMdArrowRoundForward } from 'react-icons/io';
 // import './HomeTestimonial.css'
 const HomeTestimonial = () => {
@@ -65,12 +65,12 @@ const HomeTestimonial = () => {
                             initial={{ opacity: 0, x: 100 }}
                             transition={{ ...transition, duration: 2 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            className='relative left-0 md:left-[20%]  bg-[#707c41] rounded w-64 h-72' alt="" />
+                            className='relative left-[-10%] md:left-[20%]  bg-[#222] rounded w-64 h-72' alt="" />
                         <motion.img
                             initial={{ opacity: 0, x: -100 }}
                             transition={{ ...transition, duration: 2 }}
                             whileInView={{ opacity: 1, x: 0 }}
-                            src={testimonialsData[selected].image} className=' absolute w-64 h-72 object-cover rounded left-[25%] bottom-[-15%]' alt="" />
+                            src={testimonialsData[selected].image} className=' absolute w-64 h-72 object-cover rounded left-[15%] md:left-[25%] bottom-[-15%]' alt="" />
                     </div>
                 </div>
 

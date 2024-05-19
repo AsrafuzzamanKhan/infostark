@@ -1,0 +1,7 @@
+.about-marquee {
+  background-image: url("../../../assets/marqueebg/marquee-bg.jpg");
+  color: rgb(192, 191, 191);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

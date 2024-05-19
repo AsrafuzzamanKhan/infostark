@@ -57,8 +57,8 @@ const Header = () => {
         { link: "Blog", path: "blogs" },
     ]
     return (
-        <header className="w-full fixed top-0 left-0 right-0 z-10 bg-zinc-900  ">
-            <nav className={`py-4 lg:px-14 px-4 ${isSticky ? 'sticky top-0 left-0  duration-500 ease-in-out bg-black text-white shadow-lg' : ''}`} ref={sidebarRef}>
+        <header className="w-full fixed top-0 left-0 right-0 z-10   ">
+            <nav className={`py-4 lg:px-14 px-4 ${isSticky ? 'sticky top-0 left-0   bg-black text-white shadow-xl' : ''}`} ref={sidebarRef}>
                 <div className='container mx-auto flex items-center justify-between'>
                     <div>
                         <Link to='/'> <img src={logo} alt="logo" className='w-28 lg:w-fit' /></Link>
@@ -66,7 +66,7 @@ const Header = () => {
                     {/* navbar for large device  */}
                     <ul className='md:flex space-x-6 lg:space-x-12 hidden '>
                         {navItems.map((item, i) => (
-                            < NavLink key={i} to={item.path} offset={-100} className='block  text-white hover:text-[#d0f053] first:font-medium'>{item.link}</NavLink>
+                            < NavLink key={i} to={item.path} offset={-100} className='block  text-white hover:text-[#d0f053] first:font-medium duration-500 ease-in-out'>{item.link}</NavLink>
                         ))}
 
                     </ul>
@@ -86,7 +86,7 @@ const Header = () => {
                 </div>
 
                 {/* nav item for mobile  */}
-                <div className={`${open ? 'right-0' : '-right-full'} space-y-4 px-4  py-7 bg-slate-800 text-white w-[80%] fixed top-0 bottom-0 z-999 h-screen transition-all duration-700 overflow-auto `}>
+                <div className={`${open ? 'right-0' : '-right-full'} space-y-4 px-4  py-7 bg-slate-800 text-white w-[80%] fixed top-0 bottom-0 z-999 h-screen transition-all duration-700 ease-in-out overflow-auto  `}>
                     <button
                         onClick={toggleMenu}
                         className='focus:outline-none focus:text-gray-600 bg-transparent fixed'> {open && <FaXmark size={20} />}

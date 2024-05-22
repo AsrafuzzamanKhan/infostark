@@ -53,8 +53,8 @@ const Header = () => {
         { link: "Home", path: "/" },
         { link: "About Us", path: "aboutUs" },
         { link: "Services", path: "services" },
-        { link: "Projects", path: "projects" },
-        { link: "Blog", path: "blogs" },
+        // { link: "Projects", path: "projects" },
+        // { link: "Blog", path: "blogs" },
     ]
     return (
         <header className="w-full fixed top-0 left-0 right-0 z-10   ">

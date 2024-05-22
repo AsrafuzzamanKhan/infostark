@@ -9,6 +9,7 @@ import {
 import Root from './Root/Root.jsx';
 import Home from './pages/Home/Home.jsx';
 import AboutUs from './pages/AboutUsPage/AboutUs/AboutUs.jsx';
+import Service from './pages/ServicePage/Service/Service.jsx';
 
 
 
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: '/aboutUs',
         element: <AboutUs />
+      },
+      {
+        path: '/services',
+        element: <Service />
       },
     ]
   },

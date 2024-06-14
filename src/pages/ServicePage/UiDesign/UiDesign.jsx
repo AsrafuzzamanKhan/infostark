@@ -10,7 +10,7 @@ const UiDesign = () => {
                     <h1 className='text-3xl font-semibold'>UI/UX design services</h1>
                     <p className='text-gray-400'>Powered by first-class specialists, INFOStark provides you with top-notch UI and UX design services for web and mobile applications. We know how to efficiently engage your audience with your product. The project’s architecture and user needs are our top priorities that allow us to organize clear logical user flows to get a unique interface.</p>
                 </div>
-                <div className='flex-1'>
+                <div className='flex-1 flex justify-center items-center'>
                     <img className='w-96 rounded-xl shadow-2xl' src={uiImg} alt="" />
                 </div>
             </div>
@@ -43,7 +43,7 @@ const UiDesign = () => {
                     </div>
                     <div className='border border-slate-700 rounded p-8 flex items-center justify-center gap-6' >
                         <div className=''>
-                            <h1 className='text-3xl font-semibold w-full lg:max-w-xl'>If you need UI design services for your web or mobile app, we are here to help</h1>
+                            <h1 className='text-md md:text-3xl font-semibold w-full lg:max-w-xl'>If you need UI design services for your web or mobile app, we are here to help</h1>
                         </div>
                         <div className='bg-[#c4ef17] p-4 rounded'>
                             <button className='text-black font-semibold'>Drop a Message</button>

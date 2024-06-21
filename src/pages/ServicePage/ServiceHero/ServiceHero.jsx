@@ -4,7 +4,7 @@ import { FaMobileButton } from 'react-icons/fa6'
 const ServiceHero = () => {
     return (
         <div className='serviceHero relative h-[60vh]'>
-            <div className='absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/70  rounded-lg  '>
+            <div className='absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/70  '>
             </div>
             <div className=' container mx-auto  pt-24 lg:pt-40 relative'>
                 <div className='relative'>

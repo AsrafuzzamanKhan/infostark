@@ -10,7 +10,6 @@ import { PiHourglassSimpleLow } from 'react-icons/pi';
 const Web = () => {
     return (
         <div>
-
             <div className='flex flex-col-reverse md:flex-row container mx-auto items-center justify-center gap-8 py-12 lg:py-20 px-[2vw] lg:px-0'>
                 <div className='flex-1 flex justify-center items-center'>
                     <img className='w-96 rounded-xl shadow-2xl' src={webImg} alt="" />

@@ -10,6 +10,7 @@ import Root from './Root/Root.jsx';
 import Home from './pages/Home/Home.jsx';
 import AboutUs from './pages/AboutUsPage/AboutUs/AboutUs.jsx';
 import Service from './pages/ServicePage/Service/Service.jsx';
+import Temp from './pages/TempPage/Temp/Temp.jsx';
 
 
 
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: '/services',
         element: <Service />
+      },
+      {
+        path: '/templates',
+        element: <Temp />
       },
     ]
   },
